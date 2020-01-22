@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "API Automation test run">
+    <test name = "HEALTH CHECK">
+        <groups>
+            <run>
+                <include name = "regression"/>
+            </run>
+        </groups>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            <classes>
+            <class name="RegistrationTest"/>
+            <class name="ListUsersTest"/>
+          </classes>
+    </test>
+</suite>
